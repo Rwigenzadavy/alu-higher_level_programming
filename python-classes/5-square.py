@@ -28,6 +28,4 @@ class Square:
         self.__size = size
 
     def my_print(self):
-        for item in range(self.__size):
-            print("#",end="") for j in range(self.__size)
-            print()
+        print(*("#" * self.__size for _ in range(self.__size)), sep="\n")
