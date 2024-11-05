@@ -4,6 +4,6 @@
 
 class Square:
     """ square class"""
+
     def __init__(self, size): 
-        """ initialization  """
         self.__size = size
