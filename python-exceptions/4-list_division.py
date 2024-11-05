@@ -10,7 +10,7 @@ def list_division(my_list_1, my_list_2, list_length):
             print("wong type")
             div = 0
         except ZeroDivisionError:
-            print("divison by zero")
+            print("divison by 0")
             div = 0
         except IndexError:
             print("out of range")
