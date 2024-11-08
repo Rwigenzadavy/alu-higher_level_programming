@@ -50,6 +50,7 @@ class Rectangle:
         if self.__height == 0 or self.__width == 0:
             return (0)
         return 2 * (self.__width + self.__height)
+
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """ static method to return the biggest rec """
