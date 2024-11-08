@@ -63,4 +63,4 @@ class Rectangle:
         """string repr"""
         rect_rep = "Rectangle(" + str(self.width)
         rect_rep += "," + str(self.__height) + ")"
-        return rec_rep
+        return rect_rep
