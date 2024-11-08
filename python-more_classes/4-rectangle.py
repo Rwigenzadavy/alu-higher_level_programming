@@ -62,5 +62,5 @@ class Rectangle:
     def __repr__(self):
         """string repr"""
         rect_rep = "Rectangle(" + str(self.width)
-        rect_rep += "," + str(self.__height) + ")"
+        rect_rep += ", " + str(self.__height) + ")"
         return rect_rep
