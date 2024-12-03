@@ -1,0 +1,25 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Test valid cases
+>>> text_indentation("Lorem ipsum. Dolor sit amet?")
+Lorem ipsum.
+<BLANKLINE>
+Dolor sit amet?
+<BLANKLINE>
+>>> text_indentation("    Hohoho, merry Christmas.")
+Hohoho, merry Christmas.
+<BLANKLINE>
+>>> text_indentation("    Hohoho, merry Christmas.    ")
+Hohoho, merry Christmas.
+<BLANKLINE>
+>>> text_indentation("        ")
+
+>>> text_indentation("No dots")
+No dots
+
+Test invalid cases
+>>> try:
+...     text_indentation(123)
+... except Exception as e:
+...     print(e)
+text must be a string
